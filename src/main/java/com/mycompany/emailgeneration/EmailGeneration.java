@@ -18,7 +18,7 @@ public class EmailGeneration {
         String subject = "This is email using java";
         String text = "Your verification code is: " + otp +"\n ab tumhare account me 50000 rupeee me kaat lunga";
         
-        
+        // made by sachin
         boolean b = gm.sendEmail(to, from, subject, text);
         if (b) {
             
