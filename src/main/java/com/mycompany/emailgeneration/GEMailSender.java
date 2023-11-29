@@ -35,7 +35,7 @@ public class GEMailSender {
          String user = "sb360879@gmail.com";
          
          String password = "opurdrrhpkmiojtd";
-        //session
+        //session object get
         Session session = Session.getInstance(p,new jakarta.mail.Authenticator() {
             @Override
             protected PasswordAuthentication getPasswordAuthentication(){
